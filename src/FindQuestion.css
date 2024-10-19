@@ -1,0 +1,39 @@
+.find-questions {
+    padding: 20px;
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  .question-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .question-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .question-card.expanded {
+    background-color: #f9f9f9;
+  }
+  
+  .question-details {
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
